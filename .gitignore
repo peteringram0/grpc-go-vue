@@ -1,4 +1,4 @@
-./client/node_modules
 ./client/proto/*
 ./proto/echo.pb.go
 ./server/proto/*.pb.go
+.idea
