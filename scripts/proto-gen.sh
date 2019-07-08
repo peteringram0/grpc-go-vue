@@ -12,3 +12,5 @@ protoc \
     --js_out="import_style=commonjs,binary:${CLIENT_OUT_DIR}" \
     --plugin="protoc-gen-ts=${PROTOC_GEN_TS_PATH}" \
     --ts_out="service=true:${CLIENT_OUT_DIR}"
+
+mv "$SERVER_OUT_DIR/echo.pb.go" ./server/proto/echo.pb.go

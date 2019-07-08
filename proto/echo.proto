@@ -10,4 +10,5 @@ message Empty {}
 
 service EchoService {
     rpc Echo (Empty) returns (StringMessage) {}
+    rpc EchoStream (Empty) returns (stream StringMessage) {}
 }

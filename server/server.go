@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
+	echo "grpc-go-vue/server/proto"
 	"log"
 	"net"
-
-	echo "grpc-go-vue/proto"
 
 	"google.golang.org/grpc"
 )
